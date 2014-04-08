@@ -13,7 +13,7 @@ angular.module('maaravi.directives')
                 }
                 indicatorText = attrs.LoadingText || 'Loading...';
                 if (collectionName) {
-                    indicator = $('<span class="' + attrs.LoadingClass + '" style="position:absolute; display:inline-block; margin:5px 0 0 10px;">' + indicatorText + '</span>');
+                    indicator = $('<span class="' + attrs.LoadingClass + '" style="position:absolute; margin:1px 0 0 4px;">' + indicatorText + '</span>');
                     indicator.insertBefore(element);
 
                     element.attr('disabled', '');
