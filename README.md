@@ -5,7 +5,7 @@ Angular directive for showing a loading indicator on select elements with late-b
 
 ### Demo
 
-http://jsfiddle.net/maaravi/N6C87/
+http://jsfiddle.net/maaravi/N6C87/2/
 
 ### License
 
